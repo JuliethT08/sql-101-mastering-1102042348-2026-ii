@@ -1,6 +1,6 @@
--- Exercise 4 - b
---Tabla: geo.municipalities.
--- b) Del mismo departamento, consulte ´unicamente los municipios cuyo nombre
+-- Exercise 4-b
+-- Tabla: geo.municipalities.
+-- b)Del mismo departamento, consulte ´unicamente los municipios cuyo nombre
 --comienza con la palabra San.
 
 SELECT 

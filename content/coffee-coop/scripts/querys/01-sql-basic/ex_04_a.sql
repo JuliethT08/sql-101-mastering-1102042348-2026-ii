@@ -1,6 +1,6 @@
--- Exercise 4 - a
---Tabla: geo.municipalities.
--- a) Consulte el codigo y el nombre de los municipios de Norte de Santander, con
+-- Exercise 4-a
+-- Tabla: geo.municipalities.
+-- a)Consulte el codigo y el nombre de los municipios de Norte de Santander, con
 -- los alias municipality code y municipality, ordenados alfab´eticamente.
 
 SELECT 

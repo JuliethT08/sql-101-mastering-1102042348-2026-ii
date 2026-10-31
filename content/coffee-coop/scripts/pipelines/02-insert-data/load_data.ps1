@@ -16,7 +16,7 @@
 #>
 param(
     [string]$DbHost    = "localhost",
-    [int]   $Port      = 5433,
+    [int]   $Port      = 5432,
     [string]$User      = "cc_admin",
     [string]$Database  = "coffee_coop_db",
     [string]$SqlDir    = "",

@@ -1,6 +1,6 @@
---Exercise 1- c
+-- Exercise 1-c
 -- Table:geo.departments.
---c) Repita el literal b) ordenando el resultado alfab´eticamente por el nombre del
+-- c)Repita el literal b) ordenando el resultado alfab´eticamente por el nombre del
 --departamento. 
 
 SELECT

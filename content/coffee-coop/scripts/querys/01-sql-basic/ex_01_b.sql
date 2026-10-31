@@ -1,7 +1,6 @@
--- Exercise 1- b
+-- Exercise 1-b
 -- Table:geo.departments.
-
--- b) Consulte unicamente el codigo y el nombre del departamento, renombrando las
+-- b)Consulte unicamente el codigo y el nombre del departamento, renombrando las
 -- columnas como code y department.
 
 SELECT

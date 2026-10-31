@@ -1,6 +1,6 @@
--- Exercise 2 -a 
+-- Exercise 2-a 
 -- Tabla: farm.coffee varieties.
--- a) Consulte el nombre, la especie y la descripcion de las variedades resistentes
+-- a)Consulte el nombre, la especie y la descripcion de las variedades resistentes
 --a la roya, con los alias variety, species y description.
 
 SELECT 

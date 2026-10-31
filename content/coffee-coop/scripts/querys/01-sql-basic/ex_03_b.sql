@@ -1,6 +1,6 @@
--- Exercise 3- b
---Tabla: farm.certifications.
---b) Agregue una columna calculada con la prima por carga (premium per kg *125) con el alias premium per load cop.
+-- Exercise 3-b
+-- Tabla: farm.certifications.
+-- b)Agregue una columna calculada con la prima por carga (premium per kg *125) con el alias premium per load cop.
 
 -- Exercise 03 - b
 -- Same as (a) plus premium per load (125 kg)

@@ -1,13 +1,12 @@
--- Exercise 5 - a
+-- Exercise 5-a
 -- Tabla: buy.collection points.
--- a) Consulte el nombre, la direccion y el codigo del municipio de los puntos de
+-- a)Consulte el nombre, la direccion y el codigo del municipio de los puntos de
 --compra inactivos, con los alias point, address y municipality code.
 
 SELECT 
     T1.point_name AS point,
     T1.address_line AS address,
-    T1.municipality_code  AS municipality_code,
-    T1.is_active
+    T1.municipality_code  AS municipality_code
 FROM buy.collection_points AS T1
 WHERE T1.is_active = FALSE; 
 

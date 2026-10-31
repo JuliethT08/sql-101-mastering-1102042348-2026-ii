@@ -1,6 +1,6 @@
--- Exercise 2 - b
+-- Exercise 2-b
 -- Tabla: farm.coffee varieties.
---b) Consulte las variedades no resistentes a la roya de la especie arabica, ordenadas por nombre de forma descendente.
+-- b)Consulte las variedades no resistentes a la roya de la especie arabica, ordenadas por nombre de forma descendente.
 
 SELECT 
 variety_name AS variety,

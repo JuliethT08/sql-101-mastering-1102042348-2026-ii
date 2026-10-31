@@ -1,6 +1,6 @@
--- Exercise 3 - a
---Tabla: farm.certifications.
--- a) Consulte el nombre de la certificacion, el organismo que la emite y la prima
+-- Exercise 3-a
+-- Tabla: farm.certifications.
+-- a)Consulte el nombre de la certificacion, el organismo que la emite y la prima
 --por kg, con los alias certification, issuer y premium per kg cop, ordenado
 --de la prima mas alta a la mas baja.
 

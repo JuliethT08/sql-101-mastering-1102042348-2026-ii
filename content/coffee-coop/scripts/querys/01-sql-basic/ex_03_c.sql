@@ -1,6 +1,6 @@
--- Exercise 3 - c
---farm.certifications.
---c) Muestre solo las certificaciones cuya prima por kg sea mayor o igual a 350 COP.
+-- Exercise 3-c
+-- farm.certifications.
+-- c)Muestre solo las certificaciones cuya prima por kg sea mayor o igual a 350 COP.
 
 SELECT 
     T1.certification_name AS certificacion,

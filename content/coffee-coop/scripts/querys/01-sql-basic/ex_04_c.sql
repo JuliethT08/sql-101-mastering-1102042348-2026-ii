@@ -1,6 +1,6 @@
--- Exercise 4 - c
+-- Exercise 4-c
 -- Tabla: geo.municipalities.
--- c) Consulte en todo el pa´ıs los municipios cuyo nombre contiene la palabra
+-- c)Consulte en todo el pa´ıs los municipios cuyo nombre contiene la palabra
 -- Pamplona, sin importar mayusculas o minusculas (ILIKE).
 
 SELECT 

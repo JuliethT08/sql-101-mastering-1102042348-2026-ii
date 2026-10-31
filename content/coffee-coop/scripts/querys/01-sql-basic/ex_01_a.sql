@@ -1,5 +1,6 @@
--- Exercise 1 - a
+-- Exercise 1-a
 -- Departments: DANE code and name
+-- a) Consulte todas las columnas y todas las filas de la tabla usando SELECT *.
 
 SELECT
     *
