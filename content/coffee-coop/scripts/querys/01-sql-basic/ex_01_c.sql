@@ -4,10 +4,11 @@
 --departamento. 
 
 SELECT
-    department_code AS code,
-    department_name AS deparment
-FROM geo.departments
-ORDER BY department_name;
+    T1.department_code AS code,
+    T1.department_name AS deparment
+FROM geo.departments AS T1
+ORDER BY T1.department_name;
+
 
 /**
  code |                        deparment

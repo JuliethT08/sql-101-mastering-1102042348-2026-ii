@@ -4,9 +4,9 @@
 -- columnas como code y department.
 
 SELECT
-    department_code AS code,
-    department_name AS deparment
-FROM geo.departments;
+    T1.department_code AS code,
+    T1.department_name AS deparment
+FROM geo.departments AS T1;
 
 
 

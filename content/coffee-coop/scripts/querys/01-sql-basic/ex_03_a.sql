@@ -5,11 +5,11 @@
 --de la prima mas alta a la mas baja.
 
 SELECT 
-    certification_name AS certificacion,
-    issuing_body AS issuer,
-    premium_per_kg AS premium_per_kg_cop
-FROM farm.certifications
-ORDER BY premium_per_kg_cop DESC;
+    T1.certification_name AS certificacion,
+    T1.issuing_body AS issuer,
+    T1.premium_per_kg AS premium_per_kg_cop
+FROM farm.certifications AS T1
+ORDER BY T1.premium_per_kg DESC;
 
 /**
     certificacion    |              issuer               | premium_per_kg_cop

@@ -4,11 +4,11 @@
 --a la roya, con los alias variety, species y description.
 
 SELECT 
-    variety_name AS variety,
-    species AS species,
-    description AS description
-FROM farm.coffee_varieties
-WHERE is_rust_resistant = TRUE;
+    T1.variety_name AS variety,
+    T1.species AS species,
+    T1.description AS description
+FROM farm.coffee_varieties AS T1
+WHERE T1.is_rust_resistant = TRUE;
 
 /** 
   variety   | species |                             description

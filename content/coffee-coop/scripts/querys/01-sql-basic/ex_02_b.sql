@@ -3,14 +3,14 @@
 -- b)Consulte las variedades no resistentes a la roya de la especie arabica, ordenadas por nombre de forma descendente.
 
 SELECT 
-variety_name AS variety,
-species AS species,
-description AS description
+T1.variety_name AS variety,
+T1.species AS species,
+T1.description AS description
 
-FROM farm.coffee_varieties
-WHERE is_rust_resistant = FALSE
-    AND species='arabica'
-ORDER BY variety_name DESC;
+FROM farm.coffee_varieties AS T1
+WHERE T1.is_rust_resistant = FALSE
+    AND T1.species='arabica'
+ORDER BY T1.variety_name DESC;
 
 /** 
     variety    | species |                      description
